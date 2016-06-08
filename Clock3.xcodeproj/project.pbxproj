@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		383AEFBE1D07CFAC007DDB37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383AEFBD1D07CFAC007DDB37 /* AppDelegate.swift */; };
-		383AEFC01D07CFAC007DDB37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383AEFBF1D07CFAC007DDB37 /* ViewController.swift */; };
 		383AEFC31D07CFAC007DDB37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383AEFC11D07CFAC007DDB37 /* Main.storyboard */; };
 		383AEFC51D07CFAC007DDB37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 383AEFC41D07CFAC007DDB37 /* Assets.xcassets */; };
 		383AEFD01D07CFAC007DDB37 /* Clock3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383AEFCF1D07CFAC007DDB37 /* Clock3Tests.swift */; };
 		383AEFDB1D07CFAC007DDB37 /* Clock3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383AEFDA1D07CFAC007DDB37 /* Clock3UITests.swift */; };
+		383AEFE91D07D0D5007DDB37 /* SWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383AEFE81D07D0D5007DDB37 /* SWViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,6 @@
 /* Begin PBXFileReference section */
 		383AEFBA1D07CFAC007DDB37 /* Clock3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		383AEFBD1D07CFAC007DDB37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		383AEFBF1D07CFAC007DDB37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		383AEFC21D07CFAC007DDB37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		383AEFC41D07CFAC007DDB37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		383AEFC61D07CFAC007DDB37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +44,7 @@
 		383AEFD61D07CFAC007DDB37 /* Clock3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Clock3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		383AEFDA1D07CFAC007DDB37 /* Clock3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock3UITests.swift; sourceTree = "<group>"; };
 		383AEFDC1D07CFAC007DDB37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		383AEFE81D07D0D5007DDB37 /* SWViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +96,10 @@
 			isa = PBXGroup;
 			children = (
 				383AEFBD1D07CFAC007DDB37 /* AppDelegate.swift */,
-				383AEFBF1D07CFAC007DDB37 /* ViewController.swift */,
 				383AEFC11D07CFAC007DDB37 /* Main.storyboard */,
 				383AEFC41D07CFAC007DDB37 /* Assets.xcassets */,
 				383AEFC61D07CFAC007DDB37 /* Info.plist */,
+				383AEFE81D07D0D5007DDB37 /* SWViewController.swift */,
 			);
 			path = Clock3;
 			sourceTree = "<group>";
@@ -252,7 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				383AEFC01D07CFAC007DDB37 /* ViewController.swift in Sources */,
+				383AEFE91D07D0D5007DDB37 /* SWViewController.swift in Sources */,
 				383AEFBE1D07CFAC007DDB37 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
